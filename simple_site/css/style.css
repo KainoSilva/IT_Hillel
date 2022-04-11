@@ -10,6 +10,7 @@
   margin-right: auto;
   box-sizing: border-box;
   padding-top: 79px;
+  padding-bottom: 141px;
 }
 
 .menu {
@@ -37,7 +38,6 @@ a {
 
 .intro {
   width: 540px;
-  padding-bottom: 141px;
 }
 
 .intro_title {
@@ -47,7 +47,7 @@ a {
 }
 
 .intro_content {
-  padding-bottom: 65px;
+  margin-bottom: 65px;
   color: #727272;
   line-height: 26px;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
@@ -74,7 +74,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  margin-top: 112px;
+  padding-top: 112px;
   padding-bottom: 100px;
 }
 
@@ -124,13 +124,17 @@ a {
   font-weight: 500;
 }
 
+.item_text::first-line {
+  font-size: 21px;
+}
+
 /* Main */
 
 main {
   background-color: #EEEFF1;
   box-sizing: border-box;
   padding-bottom: 100px;
-  margin-bottom: 0px;
+  padding-top: 100px;
 }
 
 .work {
@@ -138,14 +142,7 @@ main {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  padding-top: 100px;
-  padding-bottom: 57px;
-}
-
-.media {
-  width: 1110px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-bottom: 57px;
 }
 
 .work_title {
@@ -159,6 +156,12 @@ main {
   line-height: 26px;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-weight: 400;
+}
+
+.media {
+  width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Footer */
