@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Inter';
+  src: url(../../popup/fonts/subset-Inter-Bold.woff),
+    url(../../popup/fonts/subset-Inter-Bold.woff2);
+
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url(../../popup/fonts/subset-Inter-Regular.woff),
+    url(../../popup/fonts/subset-Inter-Regular.woff2);
+
+    font-weight: 400;
+    font-style: normal;
+}
