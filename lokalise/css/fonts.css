@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Graphik';
+  src: url(/lokalise/fonts/subset-GraphikLCG-Regular.woff) format('woff'),
+    url(/lokalise/fonts/subset-GraphikLCG-Regular.woff2) format('woff2');
+
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: url(/lokalise/fonts/subset-GraphikLCG-Semibold.woff) format('woff'),
+    url(/lokalise/fonts/subset-GraphikLCG-Semibold.woff2) format('woff2');
+
+  font-weight: 600;
+  font-style: normal;
+}
