@@ -11,7 +11,7 @@ header {
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
   box-sizing: border-box;
   position: sticky;
   top: 0;
@@ -672,7 +672,22 @@ footer {
   flex-direction: column;
 }
 
-.links h4 {
+.links ul {
+  padding: 0;
+  margin: 0;
+}
+
+.links li {
+  list-style: none;
+  margin-bottom: 15px;
+  font-size: 15px;
+  line-height: 15px;
+  font-family: 'Graphik', sans-serif;
+  font-weight: 400;
+}
+
+
+.links ul li:first-child {
   margin: 0;
   margin-bottom: 20px;
   font-size: 20px;
@@ -681,17 +696,12 @@ footer {
   font-weight: 600;
 }
 
-.links a {
-  text-decoration: none;
-  font-size: 15px;
-  line-height: 15px;
-  margin-bottom: 15px;
-  font-family: 'Graphik', sans-serif;
-  font-weight: 400;
+.links ul li:last-child {
+  margin: 0;
 }
 
-.links a:last-child {
-  margin: 0;
+.links a {
+  text-decoration: none;
 }
 
 .footer-down {
