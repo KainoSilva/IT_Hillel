@@ -1,0 +1,187 @@
+@media only screen and (max-width: 768px) {
+
+
+  .new-padding,
+  div.new-padding,
+  section.new-padding {
+    padding: 40px 10px;
+  }
+
+  /* HEADER */
+
+  header.new-padding {
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    position: static;
+    align-items: center;
+  }
+
+  ul.navigation {
+    gap: 20px;
+  }
+
+  div.buttons {
+    flex-direction: column;
+  }
+
+  /* INTRO */
+
+  .intro {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .info {
+    order: 2;
+    text-align: center;
+  }
+
+  h2.info_title {
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+
+  .buttons {
+    flex-shrink: 2;
+  }
+
+  .info_btns {
+    justify-content: center;
+  }
+
+  .intro img {
+    max-width: 100%;
+    order: 1;
+  }
+
+  /* COMMERCIAL */
+
+  .companies_logo {
+    flex-wrap: wrap;
+    gap: 10px 30px;
+    line-height: 70px;
+  }
+
+  .companies_logo a:last-child {
+    line-height: 0;
+  }
+
+  /* MAIN */
+
+  div.main_items {
+    gap: 40px;
+  }
+
+  .item-and-img {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .items {
+    order: 1;
+  }
+
+  .item_img {
+    order: 2;
+  }
+
+  /* CARDS */
+
+  section.card {
+    max-width: 300px;
+  }
+
+  /* PRODUCTIVITY */
+
+  .productivity_types {
+    gap: 20px;
+  }
+
+  /* QUOTE */
+
+  .officer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .quote {
+    order: 2;
+  }
+
+  .manager {
+    order: 1;
+    margin-bottom: 30px;
+  }
+
+  /* CAKE */
+
+  .cakes-logos {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  div.cake-description {
+    border: 0;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+
+  div.logo-stars {
+    justify-content: space-around;
+  }
+
+  /* INTEGRATE LOKALISE */
+
+  .integrate-img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* LOKALIZATION */
+
+  h2.lokalization-title {
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+
+  /* FOOTER */
+
+  footer {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .case {
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+
+  div.case section {
+    width: 100%;
+  }
+
+  img.case-img_bike {
+    width: 300px;
+  }
+
+  p.case-info {
+    width: 100%;
+  }
+
+  .footer-up {
+    flex-direction: column;
+  }
+
+  div.links li {
+    font-size: 0.8rem;
+    line-height: 0.5rem;
+  }
+
+  div.down-right {
+    width: 110px;
+  }
+}

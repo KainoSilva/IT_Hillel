@@ -1,0 +1,274 @@
+@media only screen and (max-width: 375px) {
+
+  * {
+    max-width: 100%;
+  }
+
+
+  /* HEADER */
+
+  header {
+    align-items: center;
+  }
+
+  .header {
+    flex-direction: column;
+    padding-top: 20px;
+  }
+
+  a.logo {
+    width: 100%;
+    height: 100%;
+  }
+
+  ul.navigation {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0%;
+    align-items: center;
+  }
+
+  .buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  a.btn {
+    width: 100%;
+  }
+
+  /* INTRO */
+
+  h2.info_title {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  p.info_description {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+
+  p.info_bottom {
+    font-size: 0.8rem;
+  }
+
+  .info_btns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  a.section_btn {
+    width: 100%;
+  }
+
+  /* COMMERCIAL */
+
+  h2.companies_title {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  div.companies_logo {
+    gap: 40px 20px;
+  }
+
+  /* MAIN */
+
+  .main_items {
+    text-align: center;
+  }
+
+  h2.item_title {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+
+  p.item_description {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    text-align: left;
+  }
+
+  div.item-and-img {
+    max-width: 100%;
+  }
+
+  div.item_img {
+    width: 100%;
+    height: 355px;
+  }
+
+  div.item_img img {
+    height: 200px;
+  }
+
+  /* CARDS */
+
+  h2.cards-title {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  p.card_description {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+
+  /* PRODUCTIVITY TYPES */
+
+  h2.productivity-title {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+
+  h3.type_title {
+    font-size: 1.2rem;
+    line-height: 0;
+  }
+
+  p.type_description {
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+
+  .productivity_types {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  /* QUOTE */
+
+  p.quote_title {
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+
+  p.quote_description {
+    font-size: 0.8rem;
+    line-height: 1rem;
+  }
+
+  /* CAKE */
+
+  p.cake_info {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    padding-bottom: 20px;
+  }
+
+  div.cake-description {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  img.users_img {
+    height: 25px;
+  }
+
+  .logo-stars div {
+    width: 100px;
+  }
+
+  p.new_sizing {
+    font-size: 0.6rem;
+    line-height: 0;
+  }
+
+  /* INTEGRATE */
+
+  h2.integrate-title {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  p.integrate-info {
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+  }
+
+  a.integrate-btn {
+    width: 100%;
+  }
+
+  /* LOKALIZATION */
+
+  h2.lokalization-title {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  p.lokalization-info {
+    font-size: 1rem;
+    line-height: 0;
+  }
+
+  a.lokalization-btn {
+    width: 100%;
+  }
+
+  /* FOOTER */
+
+  div.footer-up {
+    max-width: 100%;
+  }
+
+  div.case section {
+    width: 100%;
+  }
+
+  h3.case-title {
+    font-size: 1.6rem;
+    line-height: 1rem;
+  }
+
+  img.case-img_bike {
+    max-width: 300px;
+  }
+
+  p.case-info {
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+
+  div.links {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  div.links li {
+    font-size: 0.8rem;
+    line-height: 0.5rem;
+  }
+
+  div.links section:last-child {
+    max-width: 143px;
+  }
+
+  div.links li:last-child {
+    line-height: 1em;
+  }
+
+  div.footer-down {
+    flex-direction: column;
+  }
+
+  div.down-left {
+    flex-direction: column;
+  }
+
+  img.down-left_img {
+    width: 90px;
+  }
+
+  p.down-left_info {
+    margin-bottom: 10px;
+  }
+
+  div.down-right {
+    width: 100%;
+    flex-direction: row;
+    gap: 5px;
+  }
+}

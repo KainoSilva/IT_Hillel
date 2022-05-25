@@ -1,3 +1,7 @@
+@import url(mobile.css);
+@import url(tablet.css);
+
+
 /* HEADER */
 
 a {
@@ -100,7 +104,7 @@ header {
 }
 
 .info_description {
-  max-width: 420px;
+  max-width: 500px;
   font-size: 25px;
   line-height: 35px;
   margin: 0;
@@ -195,6 +199,13 @@ header {
   row-gap: 250px;
   justify-content: space-between;
   align-items: center;
+}
+
+.item-and-img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .item {
@@ -434,6 +445,7 @@ header {
   border-right: 1px solid black;
   font-family: 'Graphik', sans-serif;
   font-weight: 600;
+  flex-shrink: 1;
 }
 
 .cake_info {
@@ -445,8 +457,9 @@ header {
 .logo-stars {
   display: flex;
   align-items: center;
-  width: 480px;
+  width: 100%;
   justify-content: space-evenly;
+  flex-shrink: 3;
 }
 
 .logo-stars div {
@@ -559,7 +572,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 780px;
+  max-width: 780px;
 }
 
 .lokalization-title {
@@ -609,8 +622,7 @@ footer {
 
 .footer-up {
   display: flex;
-  width: 1290px;
-  justify-content: space-between;
+  max-width: 1290px;
   box-sizing: border-box;
   padding-bottom: 95px;
   border-bottom: 1px solid black;
@@ -621,6 +633,7 @@ footer {
   width: 300px;
   display: flex;
   flex-direction: column;
+  margin-right: 140px;
 }
 
 .case-title {
@@ -663,8 +676,8 @@ footer {
 
 .links {
   display: flex;
-  width: 850px;
-  justify-content: space-between;
+  gap: 70px;
+  width: 100%;
 }
 
 .links section {
@@ -706,7 +719,7 @@ footer {
 
 .footer-down {
   display: flex;
-  width: 1290px;
+  width: 100%;
   justify-content: space-between;
 }
 
