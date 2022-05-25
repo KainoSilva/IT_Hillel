@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1248px) {
 
 
   .new-padding,
@@ -178,7 +178,7 @@
 
   div.links li {
     font-size: 0.8rem;
-    line-height: 0.5rem;
+    margin-bottom: 5px;
   }
 
   div.down-right {

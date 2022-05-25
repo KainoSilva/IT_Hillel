@@ -1,42 +1,73 @@
-@media only screen and (max-width: 375px) {
+@media screen and (max-width: 740px) {
+    /* HEADER */
+
+    header.mobile {
+      align-items: center;
+      flex-direction: column;
+    }
+  
+    .header {
+      flex-direction: column;
+      padding-top: 20px;
+    }
+  
+    a.logo {
+      width: 100%;
+      height: 100%;
+    }
+  
+    ul.navigation {
+      flex-direction: column;
+      gap: 10px;
+      padding: 0%;
+      align-items: center;
+    }
+  
+    .buttons {
+      flex-direction: column;
+      width: 120px;
+    }
+  
+    a.btn {
+      width: 100%;
+    }
+}
+
+@media screen and (max-width:375px) {
+  /* ALL BUTTONS */ 
+  
+  /* header */
+
+   .buttons {
+    width: 100%;
+  }
+
+  /* intro */
+
+  a.section_btn {
+    width: 100%;
+  }
+
+  /* integrate */
+
+  a.integrate-btn {
+    width: 100%;
+  }
+
+  /* lokalization */
+
+  a.lokalization-btn {
+    width: 100%;
+  }
+}
+
+
+@media only screen and (max-width: 658px) {
 
   * {
     max-width: 100%;
   }
 
-
-  /* HEADER */
-
-  header.mobile {
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .header {
-    flex-direction: column;
-    padding-top: 20px;
-  }
-
-  a.logo {
-    width: 100%;
-    height: 100%;
-  }
-
-  ul.navigation {
-    flex-direction: column;
-    gap: 10px;
-    padding: 0%;
-    align-items: center;
-  }
-
-  .buttons {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  a.btn {
-    width: 100%;
-  }
 
   /* INTRO */
 
@@ -44,6 +75,11 @@
     font-size: 2rem;
     line-height: 2.5rem;
   }
+
+  section.info {
+    align-items: center;
+  }
+
 
   p.info_description {
     font-size: 1.1rem;
@@ -59,8 +95,8 @@
     align-items: center;
   }
 
-  a.section_btn {
-    width: 100%;
+  .section_btn {
+    width: 150px;
   }
 
   /* COMMERCIAL */
@@ -96,7 +132,7 @@
   }
 
   div.item_img {
-    width: 100%;
+    width: 355px;
     height: 355px;
   }
 
@@ -133,7 +169,8 @@
     line-height: 1.3rem;
   }
 
-  .productivity_types {
+  div.productivity_types {
+    align-items: center;
     flex-direction: column;
     text-align: center;
   }
@@ -188,10 +225,6 @@
     line-height: 1.2rem;
   }
 
-  a.integrate-btn {
-    width: 100%;
-  }
-
   /* LOKALIZATION */
 
   h2.lokalization-title {
@@ -202,10 +235,6 @@
   p.lokalization-info {
     font-size: 1rem;
     line-height: 0;
-  }
-
-  a.lokalization-btn {
-    width: 100%;
   }
 
   /* FOOTER */
